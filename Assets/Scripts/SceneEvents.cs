@@ -5,16 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneEvents : MonoBehaviour
 {
-    public void PlayBtn()
+    public void LoadScene(string name)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(name);
     }
     public void ExitBtn()
     {
         Application.Quit();
-    }
-    public void RetryBtn()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
 }

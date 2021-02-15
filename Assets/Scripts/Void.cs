@@ -4,9 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Void : MonoBehaviour
 {
+    public static int highScore;
+    public string scene;
     // Start is called before the first frame update
     private void OnCollisionEnter(Collision collision)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        int score = FindObjectOfType<ScoreText>().Score;
+        if(score > highScore)
+        {
+            highScore = score;
+        }
+        SceneManager.LoadScene(scene);
     }
 }

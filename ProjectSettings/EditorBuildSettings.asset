@@ -9,9 +9,33 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: e24745aa71654b5439d1e10d99e366e0
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/PlayScene.unity
+    guid: a632f5ead66f64e4fb90ca084c0d90d9
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayer.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
+    path: Assets/Scenes/SinglePlayerGameOver.unity
     guid: fb251749411c2a44b867a0a353d685d6
+  - enabled: 1
+    path: Assets/Scenes/MultiPlayer.unity
+    guid: 3a4e9cff1974ad44eb4b44d74e68fdb6
+  - enabled: 1
+    path: Assets/Scenes/MultiPlayerPlayScene.unity
+    guid: 21ed5ba3e123a29408934396b498da21
+  - enabled: 1
+    path: Assets/Scenes/MultiPlayerCharacterSelect.unity
+    guid: 1a35c61bef6611047aca42a9c5a2b6d6
+  - enabled: 1
+    path: Assets/Scenes/MultiPlayerGameOver.unity
+    guid: 5cd2ec93003e8fa498fa44344f4e7590
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayerCharacterSelect.unity
+    guid: 0e6d589863f7e4c48a7db4984f197408
+  - enabled: 1
+    path: Assets/Scenes/FAQ.unity
+    guid: 1da0bedd4509123498eef6b8cd20081a
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 1c69b5aa31a6da742827fba50aae8de2
   m_configObjects: {}
