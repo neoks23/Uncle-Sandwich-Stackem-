@@ -11,7 +11,7 @@ public class MovingPlatform : MonoBehaviour
     Random rnd;
     bool state = true;
     float boundaries = 2.0f;
-    float moveSpeed = 0.05f;
+    public float moveSpeed = 0.05f;
     int layer = 2;
     void Start()
     {

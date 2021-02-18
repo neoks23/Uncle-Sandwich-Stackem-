@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class HighScore : MonoBehaviour
 {
     // Start is called before the first frame update
-
+    [SerializeField]
+    bool highScore;
     Text txt;
     void Start()
     {
@@ -16,6 +17,13 @@ public class HighScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        txt.text = "SCORE: " + Void.highScore.ToString();
+        if (highScore)
+        {
+            txt.text = "HIGHSCORE: " + Void.highScore.ToString();
+        }
+        else
+        {
+            txt.text = "SCORE: " + Void.score.ToString();
+        }
     }
 }

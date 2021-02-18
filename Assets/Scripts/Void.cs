@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class Void : MonoBehaviour
 {
     public static int highScore;
+    public static int score;
     public string scene;
     // Start is called before the first frame update
     private void OnCollisionEnter(Collision collision)
@@ -14,6 +15,7 @@ public class Void : MonoBehaviour
         {
             highScore = score;
         }
+        Void.score = score;
         SceneManager.LoadScene(scene);
     }
 }
