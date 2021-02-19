@@ -325,6 +325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c386d3a2e8cf7934b8ae8096eb425bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  multiplayer: 0
   scene: SinglePlayerGameOver
 --- !u!65 &490311447
 BoxCollider:
@@ -785,6 +786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a43ee8a0c02aa74a90f9eb216cf7d6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  i: 0
 --- !u!1 &1379825081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,7 +1338,7 @@ MonoBehaviour:
   - {fileID: 1606596533979915291, guid: 27383111a6317c54998f4098b5ff4353, type: 3}
   stackContainer: {fileID: 1744163712}
   camera: {fileID: 519420031}
-  moveSpeed: 0.15
+  moveSpeed: 0.05
 --- !u!4 &1958486921
 Transform:
   m_ObjectHideFlags: 0

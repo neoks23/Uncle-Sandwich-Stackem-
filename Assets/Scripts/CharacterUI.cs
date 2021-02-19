@@ -5,6 +5,8 @@ using UnityEngine.UI;
 public class CharacterUI : MonoBehaviour
 {
     Image character;
+    [SerializeField]
+    int i;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,20 @@ public class CharacterUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        character.sprite = SinglePlayerCharacterSelectionPlay.character;
+        switch (i)
+        {
+            case 0:
+                character.sprite = SinglePlayerCharacterSelectionPlay.player1;
+                break;
+            case 1:
+                character.sprite = SinglePlayerCharacterSelectionPlay.player2;
+                break;
+            case 2:
+                character.sprite = SinglePlayerCharacterSelectionPlay.player3;
+                break;
+            case 3:
+                character.sprite = SinglePlayerCharacterSelectionPlay.player4;
+                break;
+        }        
     }
 }

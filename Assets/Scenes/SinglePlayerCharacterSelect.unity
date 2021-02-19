@@ -410,6 +410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Characters: {fileID: 2098987239}
+  multiplayer: 0
 --- !u!1 &341598868
 GameObject:
   m_ObjectHideFlags: 0

@@ -62,6 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PlayerWin.cs" />
+    <Compile Include="Assets\Players.cs" />
+    <Compile Include="Assets\Reset.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\CharacterUI.cs" />
     <Compile Include="Assets\Scripts\FaceUpdater.cs" />
