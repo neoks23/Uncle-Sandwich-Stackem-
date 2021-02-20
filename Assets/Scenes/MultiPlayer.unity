@@ -575,6 +575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiplayer: 1
   scene: MultiPlayerGameOver
+  players: []
 --- !u!65 &490311447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1422,7 +1423,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1527727287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ee8dc2432a98f4b9c7c72e6da9d86c, type: 3}
+  m_Script: {fileID: 11500000, guid: a9735db2d3c23ab4ab457eafd1f4d64f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1547828711
@@ -1743,6 +1744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2958cffcdcfd41e458d744b08e36e346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bun: {fileID: 3585504860561348977, guid: a374b71eafeb5ad4aa96d720b2d935a1, type: 3}
 --- !u!4 &1744163713
 Transform:
   m_ObjectHideFlags: 0

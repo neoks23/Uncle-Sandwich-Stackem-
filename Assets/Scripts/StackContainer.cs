@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class StackContainer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Transform bun;
+    public void RemoveAll()
     {
-        
-    }
+        foreach(Transform c in transform)
+        {
+            Destroy(c.gameObject);         
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Instantiate(bun, transform, true);
+        FindObjectOfType<MovingPlatform>().CreateNew();
     }
 }
