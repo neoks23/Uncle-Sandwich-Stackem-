@@ -6,6 +6,7 @@ public class MovingPlatform : MonoBehaviour
     // Start is called before the first frame update
 
     public List<Stack> list = new List<Stack>();
+    public Transform bg;
     public StackContainer stackContainer;
     public Camera camera;
     Random rnd;
@@ -50,9 +51,9 @@ public class MovingPlatform : MonoBehaviour
 
     public void CreateNew()
     {
-        transform.position += new Vector3(0, 0.5f, 0);
+        transform.position += new Vector3(0, 0.25f, 0);
         camera.orthographicSize += 0.1f;
-        FindObjectOfType<FaceUpdater>().transform.position += new Vector3(0, 0.5f, 0);
+        bg.localScale += new Vector3(0.02f, 0.02f, 0);
         foreach (Transform child in transform)
         {
             child.gameObject.SetActive(true);

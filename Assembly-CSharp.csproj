@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\SinglePlayerCharacterSelectionPlay.cs" />
     <Compile Include="Assets\Scripts\Stack.cs" />
     <Compile Include="Assets\Scripts\StackContainer.cs" />
+    <Compile Include="Assets\Scripts\TurnSystem.cs" />
     <Compile Include="Assets\Scripts\Void.cs" />
     <None Include="Assets\Media\Fonts\turkey.txt" />
     <Reference Include="Unity.Timeline.Editor">

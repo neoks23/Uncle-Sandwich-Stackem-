@@ -327,6 +327,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiplayer: 0
   scene: SinglePlayerGameOver
+  players: []
+  points_x: 
+  points_y: 
 --- !u!65 &490311447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -347,7 +350,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490311445}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1133,6 +1136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2958cffcdcfd41e458d744b08e36e346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bun: {fileID: 0}
 --- !u!4 &1744163713
 Transform:
   m_ObjectHideFlags: 0
@@ -1332,10 +1336,10 @@ MonoBehaviour:
   - {fileID: 4095028445882756200, guid: 5611475b06d8dd640a5dee9315abf3a5, type: 3}
   - {fileID: 699321319247314659, guid: 6c87a3dccedc7134caf8f668e9ee8ebb, type: 3}
   - {fileID: 5074279983167404072, guid: 81923b2bcc89a084bbb8870dbeb0006f, type: 3}
-  - {fileID: 153709288926589571, guid: a2779a2bc677c334b8c73246812f0a59, type: 3}
+  - {fileID: 1606596533979915291, guid: 27383111a6317c54998f4098b5ff4353, type: 3}
   - {fileID: 3931549359488003629, guid: 69ef6e3f4be884545bf11e70c1ef7449, type: 3}
   - {fileID: 7170269692864095808, guid: ede69273563e7a746b6bd8ce55cb1269, type: 3}
-  - {fileID: 1606596533979915291, guid: 27383111a6317c54998f4098b5ff4353, type: 3}
+  bg: {fileID: 923659991}
   stackContainer: {fileID: 1744163712}
   camera: {fileID: 519420031}
   moveSpeed: 0.05
