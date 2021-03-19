@@ -98,24 +98,36 @@ public class Void : MonoBehaviour
                 if(score % players.Count == 0)
                 {
                     players.RemoveAt(0);
+                    Debug.Log("0");
+                    FindObjectOfType<Eliminator>().Eliminate(new Vector3(points_x[0], points_y[0], 0));
+                    FindObjectOfType<Eliminator>().Instantiate();
                     points_x.RemoveAt(0);
                     points_y.RemoveAt(0);
                 }
                 else if(score % players.Count == 1)
                 {
                     players.RemoveAt(1);
+                    Debug.Log("1");
+                    FindObjectOfType<Eliminator>().Eliminate(new Vector3(points_x[1], points_y[1], 0));
+                    FindObjectOfType<Eliminator>().Instantiate();
                     points_x.RemoveAt(1);
                     points_y.RemoveAt(1);
                 }
                 else if (score % players.Count == 2)
                 {
                     players.RemoveAt(2);
+                    Debug.Log("2");
+                    FindObjectOfType<Eliminator>().Eliminate(new Vector3(points_x[2], points_y[2],0));
+                    FindObjectOfType<Eliminator>().Instantiate();
                     points_x.RemoveAt(2);
                     points_y.RemoveAt(2);
                 }
                 else
                 {
                     players.RemoveAt(3);
+                    Debug.Log("3");
+                    FindObjectOfType<Eliminator>().Eliminate(new Vector3(points_x[3], points_y[3], 0));
+                    FindObjectOfType<Eliminator>().Instantiate();
                     points_x.RemoveAt(3);
                     points_y.RemoveAt(3);
                 }
